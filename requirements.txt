@@ -1,4 +1,0 @@
-fastapi
-uvicorn
-httpx
-gunicorn  # Optional: For production server
