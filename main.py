@@ -8,11 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-<<<<<<< HEAD
     allow_origins=["*"],  # React app URL
-=======
-    allow_origins=["https://jhansiraobotsa.github.io/financial-data-filter/"],  # React app URL
->>>>>>> 067a57b52f85202c955ad4ac4066f65648163563
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
